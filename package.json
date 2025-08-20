@@ -1,0 +1,27 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i styles/input.css -o styles/tailwind.css --watch",
+    "build": "npx tailwindcss -i styles/input.css -o styles/tailwind.css --minify"
+  
+},
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khaing684/my-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/khaing684/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/khaing684/my-portfolio#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
