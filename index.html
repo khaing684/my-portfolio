@@ -66,10 +66,20 @@ Outside of coding, I enjoy [listening music, campain], which often inspires my c
           </div> -->
         </div>
         <div class="relative">
-          <div class="aspect-[2/2] rounded-2xl bg-gradient-to-tr from-indigo-50 to-purple-50 border border-slate-150 flex items-center justify-center">
+          <!-- <div class="aspect-[2/2] rounded-2xl bg-gradient-to-tr from-indigo-50 to-purple-50 border border-slate-150 flex items-center justify-center">
             <span class="text-slate-150"><img src="assets/khaing.jpg" alt="Mya Kay Thi Khaing" class="rounded-2xl" />
 </span>
-          </div>
+          </div> -->
+
+          <!-- Replace the previous image wrapper with this -->
+<div class="mx-auto max-w-xs sm:max-w-sm md:max-w-md">
+  <div class="aspect-square rounded-2xl overflow-hidden border border-slate-200">
+    <img src="assets/khaing.jpg"
+         alt="Mya Kay Thi Khaing"
+         class="w-full h-full object-cover" />
+  </div>
+</div>
+
         </div>
       </div>
     </section>
@@ -215,17 +225,41 @@ Outside of coding, I enjoy [listening music, campain], which often inspires my c
 
    <!-- Resume -->
 <section id="resume" class="mx-auto max-w-6xl px-4 py-12 border-t border-slate-200">
-<h2 class="text-2xl font-bold">Resume</h2>
-<!-- ACTION: Put your PDF at /assets and keep name or rename to avoid spaces. Example below keeps spaces using %20. -->
-<p class="mt-4 flex gap-3">
-<a href="assets/Blue%20and%20Gray%20Simple%20Professional%20CV%20Resume.pdf" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-indigo-600 text-white hover:bg-indigo-700">View Resume (PDF)</a>
-<a href="assets/Blue%20and%20Gray%20Simple%20Professional%20CV%20Resume.pdf" download="Mya_Kay_Thi_Khaing_Resume.pdf" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 hover:border-indigo-500 hover:text-indigo-600">Download</a>
-</p>
-<!-- Optional inline preview -->
-<div class="mt-6">
-<iframe src="assets/Blue%20and%20Gray%20Simple%20Professional%20CV%20Resume.pdf#view=FitH" class="w-full h-[800px] border border-slate-200 rounded-lg" title="Resume preview"></iframe>
-</div>
+  <h2 class="text-2xl font-bold">Resume</h2>
+
+  <p class="mt-4 flex gap-3 flex-wrap">
+    <!-- opens the PDF in a new tab -->
+    <a href="assets/Mya_Kay_Thi_Khaing_Resume.pdf"
+       target="_blank"
+       rel="noopener"
+       class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-indigo-600 text-white hover:bg-indigo-700">
+      View Resume (PDF)
+    </a>
+
+    <!-- forces download -->
+    <a href="assets/Mya_Kay_Thi_Khaing_Resume.pdf"
+       download="Mya_Kay_Thi_Khaing_Resume.pdf"
+       class="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 hover:border-indigo-500 hover:text-indigo-600">
+      Download PDF
+    </a>
+  </p>
+
+  <!-- optional raw link shown (helpful for recruiters who want the URL) -->
+  <p class="mt-2 text-sm text-slate-600">
+    Direct link:
+    <a href="assets/Mya_Kay_Thi_Khaing_Resume.pdf" target="_blank" rel="noopener" class="text-indigo-600 hover:underline">
+      assets/Mya_Kay_Thi_Khaing_Resume.pdf
+    </a>
+  </p>
+
+  <!-- embedded preview (optional) -->
+  <div class="mt-6">
+    <iframe src="assets/Mya_Kay_Thi_Khaing_Resume.pdf#view=FitH"
+            class="w-full h-[800px] border border-slate-200 rounded-lg"
+            title="Resume preview"></iframe>
+  </div>
 </section>
+
 
     <footer class="mx-auto max-w-6xl px-4 py-8 border-t border-slate-200 text-sm text-slate-500">
       © <span id="year"></span> Mya Kay Thi Khaing. Built with Tailwind CSS.
