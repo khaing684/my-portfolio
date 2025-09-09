@@ -1,4 +1,4 @@
-<!-- <!doctype html>
+<!doctype html>
 <html lang="en" class="scroll-smooth">
   <head>
     <meta charset="utf-8" />
@@ -16,6 +16,7 @@
 
     <body class="bg-gradient-to-br from-indigo-200 via-purple-100 to-pink-200 text-slate-800">
 
+    <!-- Navbar -->
     <header class="sticky top-0 z-30 bg-white/80 backdrop-blur border-b border-slate-200">
       <nav class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
         <a href="#" class="text-lg font-extrabold tracking-tight">Mya Kay Thi Khaing<span class="text-indigo-600"></span></a>
@@ -37,71 +38,7 @@
           GitHub
         </a>
       </nav>
-    </header> -->
-    <!doctype html>
-<html lang="en" class="scroll-smooth">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Junior Web Developer</title>
-    <meta name="description" content="Portfolio of Mya Kay Thi Khaing, a web developer specializing in modern, responsive applications." />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/tailwind.css" />
-    <style>
-      :root {
-        font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
-      }
-      /* Smooth transition for theme switch */
-      body, header, section, footer {
-        transition: background-color 0.5s, color 0.5s;
-      }
-    </style>
-  </head>
-
-  <body class="bg-gradient-to-br from-blue-100 via-blue-200 to-teal-100 dark:from-gray-900 dark:via-indigo-900 dark:to-purple-900 text-slate-800 dark:text-slate-100">
-
-    <!-- Navbar -->
-    <header class="sticky top-0 z-30 bg-white/80 dark:bg-gray-900/80 backdrop-blur border-b border-slate-200 dark:border-gray-700">
-      <nav class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
-        <a href="#" class="text-lg font-extrabold tracking-tight dark:text-white">
-          Mya Kay Thi Khaing
-        </a>
-        
-        <div class="hidden sm:flex gap-6 text-sm">
-          <a href="#about" class="hover:text-indigo-600 dark:hover:text-indigo-400">About</a>
-          <a href="#projects" class="hover:text-indigo-600 dark:hover:text-indigo-400">Projects</a>
-          <a href="#skill" class="hover:text-indigo-600 dark:hover:text-indigo-400">Skills</a>
-          <a href="#contact" class="hover:text-indigo-600 dark:hover:text-indigo-400">Contact</a>
-          <a href="#resume" class="hover:text-indigo-600 dark:hover:text-indigo-400">Resume</a>
-        </div>
-
-        <div class="flex items-center gap-3">
-          <!-- Dark Mode Toggle -->
-          <button id="theme-toggle" aria-label="Toggle Dark Mode" class="p-2 rounded-full hover:bg-slate-200 dark:hover:bg-slate-700">
-            <!-- Sun Icon -->
-            <svg id="theme-toggle-light-icon" class="hidden w-6 h-6 text-yellow-500" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M10 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 2zm0 12a4 4 0 100-8 4 4 0 000 8zm0 2a.75.75 0 01.75.75v1.5a.75.75 0 01-1.5 0v-1.5A.75.75 0 0110 16zm8-6a.75.75 0 010 1.5h-1.5a.75.75 0 010-1.5H18zM4 10a.75.75 0 010 1.5H2.5a.75.75 0 010-1.5H4z" />
-            </svg>
-            <!-- Moon Icon -->
-            <svg id="theme-toggle-dark-icon" class="hidden w-6 h-6 text-slate-100" fill="currentColor" viewBox="0 0 20 20">
-              <path d="M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z" />
-            </svg>
-          </button>
-
-          <!-- GitHub Button -->
-          <a href="https://github.com/khaing684" target="_blank" 
-             class="inline-flex items-center gap-2 text-sm px-3 py-1.5 rounded-md border border-slate-300 hover:border-indigo-500 hover:text-indigo-600 dark:border-gray-600 dark:hover:border-indigo-400 dark:hover:text-indigo-400">
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 .5A11.5 11.5 0 0 0 .5 12.24c0 5.2 3.39 9.61 8.1 11.16.59.11.8-.26.8-.58v-2.22c-3.3.73-4-1.44-4-1.44-.54-1.41-1.33-1.78-1.33-1.78-1.08-.74.08-.72.08-.72 1.2.09 1.83 1.26 1.83 1.26 1.06 1.87 2.78 1.33 3.46 1.02.11-.79.42-1.33.76-1.63-2.64-.31-5.42-1.36-5.42-6.04 0-1.33.46-2.42 1.23-3.27-.12-.3-.53-1.55.12-3.24 0 0 1-.33 3.3 1.25a11.34 11.34 0 0 1 6 0C17.75 5.5 18.75 5.83 18.75 5.83c.65 1.7.24 2.95.12 3.24.77.85 1.23 1.94 1.23 3.27 0 4.69-2.79 5.72-5.45 6.02.43.38.82 1.12.82 2.27v3.36c0 .32.21.7.81.58A11.51 11.51 0 0 0 23.5 12.24 11.5 11.5 0 0 0 12 .5Z"/>
-            </svg>
-            GitHub
-          </a>
-        </div>
-      </nav>
     </header>
-
 
     <!-- Hero -->
     <section class="mx-auto max-w-6xl px-4 pt-16 pb-12">
@@ -113,17 +50,17 @@
 
         
     
-      <!-- <section class="max-w-5xl mx-auto px-4 py-20 bg-white/80 rounded-3xl shadow-2xl backdrop-blur-lg">
+      <section class="max-w-5xl mx-auto px-4 py-20 bg-white/80 rounded-3xl shadow-2xl backdrop-blur-lg">
   <div class="flex flex-col items-center gap-16 text-center">
 
- 
+    <!-- Profile Picture -->
     <div class="w-80 sm:w-96 md:w-[28rem] lg:w-[32rem]">
       <div class="aspect-square rounded-full overflow-hidden border-8 border-indigo-300 shadow-2xl">
         <img src="assets/khaing.jpg" alt="Mya Kay Thi Khaing" class="w-full h-full object-cover" />
       </div>
     </div>
 
-   
+    <!-- About Me Text -->
     <div class="mt-10">
       <h2 class="text-4xl font-extrabold text-indigo-800 mb-8">About Me</h2>
       <p class="text-slate-700 leading-relaxed max-w-3xl mx-auto text-lg">
@@ -139,35 +76,7 @@
     </div>
 
   </div>
-</section> -->
-<!-- About Section -->
-    <section id="about" class="max-w-5xl mx-auto px-4 py-24">
-      <div class="flex flex-col items-center gap-24 text-center">
-        
-        <!-- Profile Picture -->
-        <div class="w-80 sm:w-96 md:w-[28rem] lg:w-[32rem]">
-          <div class="aspect-square rounded-full overflow-hidden border-8 border-indigo-300 shadow-2xl">
-            <img src="assets/khaing.jpg" alt="Mya Kay Thi Khaing" class="w-full h-full object-cover" />
-          </div>
-        </div>
-
-        <!-- About Me Text -->
-        <div class="mt-12">
-          <h2 class="text-4xl font-extrabold text-indigo-800 dark:text-indigo-300 mb-8">About Me</h2>
-          <p class="text-slate-700 dark:text-slate-300 leading-relaxed max-w-3xl mx-auto text-lg">
-            Hi, I’m <strong class="text-indigo-700 dark:text-indigo-400">Mya Kay Thi Khaing</strong>, 
-            a junior web developer passionate about building clean, user-friendly websites. 
-            I enjoy turning ideas into responsive and interactive web experiences using 
-            <strong class="text-indigo-700 dark:text-indigo-400">HTML, CSS, JavaScript, Bootstrap, and Tailwind CSS</strong>.
-            <br><br>
-            I’m currently learning React to deepen my front-end skills and grow into full-stack development. 
-            My journey started through self-study, coding bootcamps, and personal projects.
-            <br><br>
-            Outside of coding, I enjoy listening to music and camping, which inspire my creativity in web development.
-          </p>
-        </div>
-      </div>
-    </section>
+</section>
 
         </div> 
       </div>
@@ -353,7 +262,7 @@
 </section>
 
 
-    <!-- <footer class="mx-auto max-w-6xl px-4 py-8 border-t border-slate-200 text-sm text-slate-500">
+    <footer class="mx-auto max-w-6xl px-4 py-8 border-t border-slate-200 text-sm text-slate-500">
       © <span id="year"></span> Mya Kay Thi Khaing. Built with Tailwind CSS.
     </footer>
 
@@ -361,41 +270,6 @@
       document.getElementById('year').textContent = new Date().getFullYear();
 
       
-    </script> -->
-        <!-- Footer -->
-    <footer class="mx-auto max-w-6xl px-4 py-8 border-t border-slate-200 dark:border-gray-700 text-sm text-slate-500 dark:text-slate-400">
-      © <span id="year"></span> Mya Kay Thi Khaing. Built with Tailwind CSS.
-    </footer>
-
-    <script>
-      document.getElementById('year').textContent = new Date().getFullYear();
-
-      // Dark mode toggle
-      const themeToggle = document.getElementById('theme-toggle');
-      const lightIcon = document.getElementById('theme-toggle-light-icon');
-      const darkIcon = document.getElementById('theme-toggle-dark-icon');
-
-      // Initialize
-      if (localStorage.getItem('theme') === 'dark') {
-        document.documentElement.classList.add('dark');
-        darkIcon.classList.remove('hidden');
-      } else {
-        lightIcon.classList.remove('hidden');
-      }
-
-      // Toggle button click
-      themeToggle.addEventListener('click', () => {
-        document.documentElement.classList.toggle('dark');
-        if (document.documentElement.classList.contains('dark')) {
-          localStorage.setItem('theme', 'dark');
-          lightIcon.classList.add('hidden');
-          darkIcon.classList.remove('hidden');
-        } else {
-          localStorage.setItem('theme', 'light');
-          lightIcon.classList.remove('hidden');
-          darkIcon.classList.add('hidden');
-        }
-      });
     </script>
   </body>
 </html>
