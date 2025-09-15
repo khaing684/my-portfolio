@@ -89,8 +89,11 @@
         }
       }
     </style>
+   
+
   </head>
-  <body class="bg-gradient-to-br from-indigo-200 via-purple-100 to-pink-200 text-slate-800">
+   <body class="bg-gradient-to-br from-indigo-200 via-purple-100 to-pink-200 text-slate-800"> 
+    
 
     <div class="flower-container">
       <div class="petal" style="left: 10%; animation-delay: 2s;"></div>
@@ -105,7 +108,7 @@
       <div class="petal" style="left: 85%; animation-delay: 7s;"></div>
     </div>
     
-    <header class="fixed top-0 left-0 w-full z-50 bg-slate-900 border-b border-slate-700">
+    <header class="scrolled top-0 left-0 w-full z-50 bg-slate-900 border-b border-slate-700">
     
  
       <nav class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
@@ -131,6 +134,7 @@
           </svg>
           GitHub
         </a>
+        
       </nav>
 
       <div id="mobile-menu" class="hidden sm:hidden bg-white/90 backdrop-blur-lg border-b border-slate-200">
@@ -144,15 +148,26 @@
       </div>
     </header>
 
-    <section class="mx-auto max-w-6xl px-4 pt-16 pb-12">
-      <div class="grid lg:grid-cols-2 gap-10 items-center">
-        <div>
-          <p class="text-sm uppercase tracking-widest text-indigo-600 font-semibold">Junior Web Developer</p>
-          <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight">I build clean, fast web experiences</h1>
-          <p class="mt-4 text-slate-600">Specializing in responsive UIs, accessible design, and modern JavaScript.</p>
-        </div>
-      </div>
-    </section>
+     <section id="hero-section"
+         class="relative mx-auto max-w-6xl px-4 pt-16 pb-12 transition-colors duration-500 theme-bg-toggle ">
+  
+
+  <!-- Your original content -->
+  <div class="grid lg:grid-cols-2 gap-10 items-center">
+    <div>
+      <p class="text-sm uppercase tracking-widest text-indigo-600 font-semibold">
+        Junior Web Developer
+      </p>
+      <h1 class="mt-3 text-4xl sm:text-5xl font-extrabold leading-tight">
+        I build clean, fast web experiences
+      </h1>
+      <p class="mt-4 text-slate-600">
+        Specializing in responsive UIs, accessible design, and modern JavaScript.
+      </p>
+    </div>
+  </div>
+</section>
+
 
     <section id="about" class="max-w-6xl mx-auto px-4 py-20 bg-white/80 rounded-3xl shadow-2xl backdrop-blur-lg">
       <div class="flex flex-col lg:flex-row items-center lg:items-start gap-12 lg:gap-24">
@@ -204,12 +219,12 @@
 
         <article class="group rounded-xl border border-slate-100 hover:border-indigo-150 bg-white overflow-hidden transition-all duration-300 transform hover:scale-[1.01] hover:shadow-lg">
           <a href="https://github.com/khaing684/ROM_ToolsBox" class="block">
-            <div class="aspect-video overflow-hidden rounded-lg">
+            <div class="aspect-video overflow-hidden rounded-xl">
               <img src="assets/ROM.jpg" alt="ROM_ToolsBox Store" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
             </div>
-            <div class="p-4">
+            <div class="p-20">
               <h3 class="font-semibold group-hover:text-indigo-600">ROM_ToolsBox Store</h3>
-              <p class="mt-1 text-sm text-slate-600">Project connects with GitHub, YouTube, Viber, Telegram, Facebook, and Messenger. My role was to write and fix the whole project.</p>
+              <p class="mt-2 text-sm text-slate-600">Project connects with GitHub, YouTube, Viber, Telegram, Facebook, and Messenger. My role was to write and fix the whole project.</p>
               <div class="mt-3 flex flex-wrap gap-2 text-xs">
                 <span class="px-3 py-1 bg-indigo-50 text-indigo-700 rounded-full text-sm font-medium">React</span>
               </div>
@@ -283,7 +298,10 @@
     </section>
 
     <section id="contact" class="max-w-6xl mx-auto px-4 py-20 bg-white/80 rounded-3xl shadow-2xl backdrop-blur-lg">
+      
       <h2 class="text-2xl font-bold">Get in touch</h2>
+
+      
       <p class="mt-4 text-slate-700">Email: <a href="mailto:myakaythikhaing6@gmail.com" class="text-indigo-600 hover:underline">myakaythikhaing6@gmail.com</a></p>
       <p class="mt-4 text-slate-700">Phone: <a href="tel:+09792369116" class="text-indigo-600 hover:underline">09792369116</a></p>
       <p class="mt-1 text-slate-700">LinkedIn: <a href="https://www.linkedin.com/in/mya-kay-thi-khaing-b74aaa380/" class="text-indigo-600 hover:underline">LinkedIn</a></p>
@@ -295,16 +313,24 @@
         <a href="assets/Mya _Kay_Thi_Khaing_CV_Resume.pdf" target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-4 py-2 rounded-md bg-indigo-600 text-white hover:bg-indigo-700">
           View Resume (PDF)
         </a>
-        <a href="assets/Mya_Kay_Thi_Khaing_CV_Resume.pdf" download="Mya_Kay_Thi_Khaing_CV_Resume.pdf" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 hover:border-indigo-500 hover:text-indigo-600">
+        <a href="assets/Mya _Kay_Thi_Khaing_CV_Resume.pdf" download="Mya_Kay_Thi_Khaing_CV_Resume.pdf" class="inline-flex items-center gap-2 px-4 py-2 rounded-md border border-slate-300 hover:border-indigo-500 hover:text-indigo-600">
           Download PDF
         </a>
       </p>
-      <p class="mt-2 text-sm text-slate-600">
-        Direct link: <a href="assets/Mya_Kay_Thi_Khaing_CV_Resume.pdf" target="_blank" rel="noopener" class="text-indigo-600 hover:underline">assets/Mya_Kay_Thi_Khaing_CV_Resume.pdf</a>
+      <p class="mt-4 text-lg text-slate-600">
+        Direct link: <a href="assets/Mya _Kay_Thi_Khaing_CV_Resume.pdf" target="_blank" rel="noopener" class="text-indigo-600 hover:underline">assets/Mya_Kay_Thi_Khaing_CV_Resume.pdf</a>
       </p>
-      <div class="mt-6">
-        <iframe src="assets/Mya_Kay_Thi_Khaing_CV_Resume.pdf#view=FitH" class="w-full h-[800px] border border-slate-200 rounded-lg" title="Resume preview"></iframe>
-      </div>
+      
+      <div class="mt-6 flex justify-center">
+  <div class="w-full max-w-[950px] aspect-[1/1.414]">
+    <iframe 
+      src="assets/Mya _Kay_Thi_Khaing_CV_Resume.pdf"
+      class="w-full h-full rounded-2xl shadow-2xl border border-slate-300"
+      title="Resume preview">
+    </iframe>
+  </div>
+</div>
+
     </section>
 
     <footer class="mx-auto max-w-6xl px-4 py-8 border-t border-slate-200 text-sm text-slate-500">
@@ -347,5 +373,6 @@
         }, 600); // Matches the animation duration
       }
     </script>
+   
   </body>
 </html>
